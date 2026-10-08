@@ -1,0 +1,7 @@
+fobj=open('C:/Users/Admin/downloads/emp.csv','r')
+s=fobj.read()
+fobj.close()
+print(type(s),len(s))
+print("")
+print("Display the file content")
+print(s)
