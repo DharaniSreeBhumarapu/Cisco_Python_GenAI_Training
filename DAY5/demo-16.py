@@ -1,7 +1,7 @@
 import sqlite3
 
 try:
-    conn = sqlite3.connect("C:\\users\\karth\\prod.db")
+    conn = sqlite3.connect("C:\\Users\\Admin\\downloads\\prod.db")
 except Exception as eobj:
     print("DB Connection failed."+str(eobj))
 
