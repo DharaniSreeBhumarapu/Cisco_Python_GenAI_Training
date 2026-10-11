@@ -10,7 +10,6 @@ class Cname:
     def display(self):
         '''display initialized values'''
         return self.a1,self.a2
-#--------------------------------------------------
 def connect(dsn):
     class Connection:
         def __init__(self,dsn,dbname,password):
