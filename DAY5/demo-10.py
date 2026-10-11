@@ -1,5 +1,5 @@
 import re
-fname = "C:\\Users\\karth\\emp.csv"
+fname = "C:\\Users\\Admin\\downloads\\emp.csv"
 
 fobj = open(fname,'r')
 for var in fobj:
